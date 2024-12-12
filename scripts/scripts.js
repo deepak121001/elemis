@@ -32,6 +32,7 @@ async function loadFonts() {
  */
 function buildAutoBlocks(main) {
   try {
+    // eslint-disable-next-line no-console
     console.log(main)
   } catch (error) {
     // eslint-disable-next-line no-console
