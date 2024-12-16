@@ -38,12 +38,18 @@
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
 
+  /* font sizes */
+  --font-size-14x: 14px;
+  --font-size-18x: 18px;
+
   /* spacing */
   --space-space-10x: 10px;
   --space-space-14x: 14px;
   --space-space-16x: 16px;
   --space-space-28x:28px;
   --space-space-32x:32px;
+  --space-space-33x:33px;
+  --space-space-35x:35px;
   --space-space-63x:63px;
 
   /* font weight */
