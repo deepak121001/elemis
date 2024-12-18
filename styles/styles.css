@@ -166,6 +166,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.blue-background {
+  background-color: var(--blue-background-color);
+  color: var(--background-color) ;
+  
+}
+
 /* buttons */
 a.button:any-link,
 button {
@@ -190,12 +196,28 @@ button {
   white-space: nowrap;
 }
 
+.blue-background a.button:any-link,
+button {
+    color: black;
+    background-color: white;
+    border: none;
+}
+
 a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
   background-color: var(--link-hover-color);
   cursor: pointer;
+}
+
+.blue-background a.button:hover,
+a.button:focus,
+button:hover,
+button:focus {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
+  color: var(--background-color);
 }
 
 button:disabled,
@@ -255,30 +277,4 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
-}
-
-.blue-background {
-  background-color: var(--blue-background-color);
-  color: var(--background-color) ;
-  
-}
-
-/* .blue-background h2{
-  font-size: 44px;
-  font-family: var(--heading-font-family);
-} */
-
-.blue-background a.button:any-link,
-button {
-    color: black;
-    background-color: white;
-    border: none;
-}
-.blue-background a.button:hover,
-a.button:focus,
-button:hover,
-button:focus {
-  background-color: var(--link-hover-color);
-  cursor: pointer;
-  color: var(--background-color);
 }
