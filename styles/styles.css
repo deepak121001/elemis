@@ -255,3 +255,34 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.blue-background {
+  background-color: rgb(0, 39, 57);
+  color: #ffffff ;
+  
+}
+
+/* .blue-background h2{
+  font-size: 44px;
+  font-family: var(--heading-font-family);
+} */
+
+.blue-background a.button:any-link,
+button {
+    color: black;
+    background-color: white;
+}
+
+.blue-background a.button:hover,
+a.button:focus,
+button:hover,
+button:focus {
+  background-color: var(--link-hover-color);
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.blue-background a.button:any-link,
+button{
+  border: none;
+}
