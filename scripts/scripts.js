@@ -1,5 +1,5 @@
 import {
-  buildBlock,
+  // buildBlock,
   loadHeader,
   loadFooter,
   decorateButtons,
@@ -12,7 +12,6 @@ import {
   loadSections,
   loadCSS,
 } from './aem.js';
-
 
 /**
  * load fonts.css and set a session storage flag
@@ -33,7 +32,7 @@ async function loadFonts() {
 function buildAutoBlocks(main) {
   try {
     // eslint-disable-next-line no-console
-    console.log(main)
+    console.log(main);
   } catch (error) {
     // eslint-disable-next-line no-console
     console.error('Auto Blocking failed', error);
