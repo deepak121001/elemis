@@ -13,7 +13,7 @@ footer .footer>div>.section:nth-child(2) {
 
 footer .footer>div>.section:last-child {
   background: #f2f4f5;
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
 }
 
 footer .footer>div>.section:last-child>.default-content-wrapper {
@@ -37,7 +37,7 @@ footer .footer p {
     padding-left: 45px;
   }
 
-  footer .footer>div>.blue-background>div:first-child>h4:after {
+  footer .footer>div>.blue-background>div:first-child>h4::after {
     width: 27px;
     content: "";
     height: 1px;

@@ -18,6 +18,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
+  --blue-background-color:#002739
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -257,8 +258,8 @@ main .section.highlight {
 }
 
 .blue-background {
-  background-color: rgb(0, 39, 57);
-  color: #ffffff ;
+  background-color: var(--blue-background-color);
+  color: var(--background-color) ;
   
 }
 
@@ -271,18 +272,13 @@ main .section.highlight {
 button {
     color: black;
     background-color: white;
+    border: none;
 }
-
 .blue-background a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
   background-color: var(--link-hover-color);
   cursor: pointer;
-  color: #ffffff;
-}
-
-.blue-background a.button:any-link,
-button{
-  border: none;
+  color: var(--background-color);
 }
