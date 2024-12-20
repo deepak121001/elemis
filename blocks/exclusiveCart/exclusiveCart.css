@@ -1,0 +1,320 @@
+/* General container styling */
+.exclusivecart-container {
+    background-color: rgb(182, 211, 222);
+    color: rgb(0, 39, 57);
+    margin: 0 auto;
+    max-width: 1310px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 83px;
+    padding-bottom: 77px;
+}
+
+.exclusivecart-container h2#elemis-exclusive-offers {
+    text-align: center;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+    font-family: DMSans-SemiBold;
+    color: rgb(0, 39, 57);
+    display: block;
+    font-weight: 400;
+    height: 64px;
+    padding-bottom: 32px;
+    padding-right: 15px;
+    text-transform: uppercase;
+}
+
+/* Carousel wrapper */
+
+.exclusivecart-wrapper {
+    /* position: relative; */
+    padding: 0 15px !important;
+    margin: 0px !important;
+}
+
+.carousel-track-container ul {
+    margin: 0 auto;
+    max-width: 1310px;
+    padding: 0 15px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.carousel-track-container ul li {
+    align-self: stretch;
+    border-width: 1px;
+    border-style: none;
+    border-image: initial;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 33.3333%;
+    max-width: 337px;
+    margin: 0 15px;
+}
+.carousel-track-container h3 {
+    font-size: 20px;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: DMSans-SemiBold;
+    font-weight: 400;
+}
+
+.carousel-track-container p {
+    font-size: 16px;
+    margin-block-end: 12px;
+    margin-block-start: 0px;
+}
+
+.button-highlight a {
+    min-width: 0 !important;
+    margin-top: 5px !important;
+    max-width: 190px !important;
+    width: 100% !important;
+    background: transparent !important;
+    color: #002739 !important;
+    border: 1px solid !important;
+    border-color: #002739 !important;
+    border-radius: 2px !important;
+    font-size: 12px !important;
+    letter-spacing: 2.08px !important;
+    line-height: 26px !important;
+    display: inline-block !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 0.7rem 1rem !important;
+    padding-bottom: 0.6rem !important;
+}
+
+.carousel-btn{
+    /* visibility: hidden; */
+    display: none !important;
+}
+
+.carousel-dots{
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    /* .exclusivecart-container > div {
+        padding: 78px 32px 66px;
+    } */
+    .exclusivecart-container {
+        background-color: rgb(182, 211, 222);
+        color: rgb(0, 39, 57);
+        display: block;
+        font-family: DMSans-Light, sans-serif;
+        font-size: 16px;
+        padding-bottom: 66px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 78px;
+        position: relative;
+    }
+    .exclusivecart-container h2#elemis-exclusive-offers {
+        align-items: center;
+        display: flex;
+        padding: 0 0 11px;
+        justify-content: space-between;
+        font-size: 20px;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        font-family: DMSans-SemiBold;
+        color: rgb(0, 39, 57);
+        font-weight: 400;
+        height: 47px;
+        justify-content: space-between;
+        letter-spacing: 0.2px;
+        line-height: 36px;
+        margin-block-end: 10px;
+        margin-block-start: 0px;
+        margin-bottom: 10px;
+        margin-inline-end: 0px;
+        margin-inline-start: 0px;
+        margin-top: 0px;
+        padding-bottom: 11px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        text-size-adjust: 100%;
+        text-transform: uppercase;
+    }
+    .exclusivecart-container h2 {
+        font-size: 20px;
+        align-items: center;
+        text-transform: uppercase;
+        letter-spacing: 0.2px;
+        font-family: DMSans-SemiBold;
+    }
+    .exclusivecart-wrapper {
+        /* position: relative; */
+        max-width: 1200px;
+        overflow: hidden;
+    }
+    .carousel-track-container ul {
+        display: flex;
+        list-style: none;
+        /* color: rgb(0, 39, 57); */
+        /* flex-wrap: wrap; */
+        font-family: DMSans-Light, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        height: 554.667px;
+        justify-content: space-between;
+        line-height: 26px;
+        max-width: 1310px;
+        left: 0px;
+        margin-left: 0px;
+        margin-right: -541px;
+        opacity: 1;
+        /* position: relative; */
+        padding-inline-start: 0px;
+        top: 0px;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        width: 900px;
+        flex-wrap:nowrap;
+    }
+    .custom-carousel {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .carousel-track-container {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel-track-container ul li {
+        display: block;
+        float: none;
+        font-family: DMSans-Light, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        min-height: 1px;
+        outline-color: rgb(0, 39, 57);
+        outline-style: none;
+        outline-width: 0px;
+        padding-right: 31px;
+        /* padding-top: 0px; */
+        width: 300px;
+    }
+
+    .carousel-track-container img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+
+    /* Content inside each carousel card */
+    .carousel-track-container h3 {
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        margin-top: 0;
+        font-family: DMSans-SemiBold;
+        font-weight: 400;
+    }
+
+    .carousel-track-container p {
+        font-size: 16px;
+        color: #666;
+        margin-block-end: 16px;
+        margin-block-start: 0px;
+    }
+
+    .carousel-track-container .button-container {
+        margin: 15px 0;
+    }
+
+    .carousel-track-container .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #0071e3;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .carousel-track-container .button:hover {
+        background-color: #005bb5;
+    }
+
+    /* Navigation buttons */
+    .carousel-btn {
+        position: absolute;
+        top: 100px;
+        transform: translateY(-50%);
+        font-size: 24px;
+        font-weight: bold;
+        color: #333;
+        cursor: pointer;
+        z-index: 10;
+        background-color: transparent;
+        padding: 0px;
+        display: block;
+    }
+
+    .prev-btn {
+        left: 70%;
+        margin: 0px;
+    }
+
+    .next-btn {
+        right: 30px;
+        margin: 0px;
+    }
+
+    .carousel-btn:hover {
+        background-color: transparent;
+        display: block;
+    }
+
+    /* Carousel dots */
+    .carousel-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .carousel-dot {
+        /* width: 7px;
+        height: 7px;
+        background-color: #ddd;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        color:rgba(0, 0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+        color: rgb(182, 211, 222);;
+        border:2px solid black; */
+        content: "";
+        background-image: url(data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDcgNyI+PGNpcmNsZSBmaWxsPSJub25lIiBzdHJva2U9IiMwMDI3MzkiIGNsYXNzPSJjbHMtMSIgY3g9IjMuNSIgY3k9IjMuNSIgcj0iMyIvPjwvc3ZnPg==);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: 50%;
+        background-color: rgb(182, 211, 222);
+        width: 7px;
+        height: 7px;
+        display: block;
+        padding: 0px;
+    }
+}
